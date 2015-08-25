@@ -1,56 +1,60 @@
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Hela þær!"
+	line "Wilcume to þære"
+	cont "POCCAÞYRSA worold"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "Min nama is AC!"
+	line "Leode cealliað me"
+	cont "þone POCCAÞYRSA"
+	cont "MÆGESTER!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@@"
+	text "Gesceapas dwellað"
+	line "in þisse worolde"
+	cont "geceallod"
+	cont "POCCAÞYRSAS!@@"
 
 _OakSpeechText2B::
-	text $51,"For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	text $51,"For sumum leodum,"
+	line "POCCAÞYRSAS earon"
+	cont "husdeor. Oðeran"
+	cont "Neotað þa to"
+	cont "feohtan."
 
-	para "Myself..."
+	para "Meself..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "Ic leornie ym-"
+	line "butan POCCAÞYRSUM"
+	cont "for note."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Fyrst, hwæt is"
+	line "þin nama?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "Þes is min sun-"
+	line "sunu. Þæs þu wæs"
+	cont "cild, þæs he hæfþ"
+	cont "þin wiðerwinna"
+	cont "gebeon."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "...Eh, hwæt is"
+	line "his nama gegn?"
 	prompt
 
 _OakSpeechText3::
 	text $52,"!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "Þin agen POCCA-"
+	line "ÞYRSA giedd"
+	cont "onginnð sona!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "Worold swefna ond"
+	line "widsiða be POCCA-"
+	cont "ÞYRSUM bideð!"
+	cont "Læt us gan!"
 	done
 

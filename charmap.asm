@@ -172,18 +172,22 @@ charmap "G", $86
 charmap "H", $87
 charmap "I", $88
 charmap "J", $89
+charmap "Æ", $89 ; Ash
 charmap "K", $8A
+charmap "Ð", $8A ; Eth
 charmap "L", $8B
 charmap "M", $8C
 charmap "N", $8D
 charmap "O", $8E
 charmap "P", $8F
 charmap "Q", $90
+charmap "Þ", $90 ; Thorn
 charmap "R", $91
 charmap "S", $92
 charmap "T", $93
 charmap "U", $94
 charmap "V", $95
+charmap "&", $95 ; Tironian et
 charmap "W", $96
 charmap "X", $97
 charmap "Y", $98
@@ -204,18 +208,22 @@ charmap "g", $A6
 charmap "h", $A7
 charmap "i", $A8
 charmap "j", $A9
+charmap "æ", $A9 ; ash
 charmap "k", $AA
+charmap "ð", $AA ; eth
 charmap "l", $AB
 charmap "m", $AC
 charmap "n", $AD
 charmap "o", $AE
 charmap "p", $AF
 charmap "q", $B0
+charmap "þ", $B0 ; thorn
 charmap "r", $B1
 charmap "s", $B2
 charmap "t", $B3
 charmap "u", $B4
 charmap "v", $B5
+charmap "$", $B5 ; that
 charmap "w", $B6
 charmap "x", $B7
 charmap "y", $B8
