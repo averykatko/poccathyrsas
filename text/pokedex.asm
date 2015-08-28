@@ -1249,13 +1249,13 @@ _StarmieDexEntry::
 	dex
 
 _BulbasaurDexEntry::
-	text "A strange seed was"
-	next "planted on its"
-	next "back at birth."
+	text "An fremde sæd wæs"
+	next " on his bæce æfter"
+	next "beorð geplantod."
 
-	page "The plant sprouts"
-	next "and grows with"
-	next "this #MON"
+	page "Seo plante sprutað"
+	next "ond growað samod"
+	next "þisne POCCAÞYRS"
 	dex
 
 _VenusaurDexEntry::
@@ -1399,23 +1399,22 @@ _MagnemiteDexEntry::
 	dex
 
 _CharmanderDexEntry::
-	text "Obviously prefers"
-	next "hot places. When"
-	next "it rains, steam"
+	text "Asweotole fore-"
+	next "bireð hate stowas."
+	next "Þonne rinþ, steam"
 
-	page "is said to spout"
-	next "from the tip of"
-	next "its tail"
+	page "spiweð fram his"
+	next "tæglas typpan"
 	dex
 
 _SquirtleDexEntry::
-	text "After birth, its"
-	next "back swells and"
-	next "hardens into a"
+	text "Æfter beorð, his"
+	next "bæc swilleð ond"
+	next "heardnað oð an"
 
-	page "shell. Powerfully"
-	next "sprays foam from"
-	next "its mouth"
+	page "scell. Geweald-"
+	next "enlice spiweð fam"
+	next "fram his muðes"
 	dex
 
 _CharmeleonDexEntry::

@@ -1071,7 +1071,7 @@ StarmieDexEntry: ; 40e1f (10:4e1f)
 	db "@"
 
 BulbasaurDexEntry: ; 40e33 (10:4e33)
-	db "SEED@"
+	db "SÆD@"
 	db 2,4
 	dw 150
 	TX_FAR _BulbasaurDexEntry
@@ -1176,14 +1176,14 @@ MagnemiteDexEntry: ; 40f1f (10:4f1f)
 	db "@"
 
 CharmanderDexEntry: ; 40f2f (10:4f2f)
-	db "LIZARD@"
+	db "EFETE@"
 	db 2,0
 	dw 190
 	TX_FAR _CharmanderDexEntry
 	db "@"
 
 SquirtleDexEntry: ; 40f3f (10:4f3f)
-	db "TINYTURTLE@"
+	db "TURTLING@"
 	db 1,8
 	dw 200
 	TX_FAR _SquirtleDexEntry
