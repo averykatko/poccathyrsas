@@ -189,49 +189,49 @@ DisplayIntroNameTextBox: ; 6a6c (1:6a6c)
 
 IF DEF(_RED)
 DefaultNamesPlayer: ; 6aa8 (1:6aa8)
-	db   "NEW NAME"
-	next "RED"
-	next "ASH"
-	next "JACK"
+	db   "NIWENAMA"
+	next "READ"
+	next "ÆSC"
+	next "HENGIST"
 	db   "@"
 
 DefaultNamesRival: ; 6abe (1:6abe)
-	db   "NEW NAME"
-	next "BLUE"
-	next "GARY"
-	next "JOHN"
+	db   "NIWENAMA"
+	next "BLAW"
+	next "SIGEGAR"
+	next "HORSA"
 	db   "@"
 ENDC
 
 IF DEF(_BLUE)
 DefaultNamesPlayer: ; 6aa8 (1:6aa8)
-	db   "NEW NAME"
-	next "BLUE"
-	next "GARY"
-	next "JOHN"
+	db   "NIWENAMA"
+	next "BLAW"
+	next "SIGEGAR"
+	next "HORSA"
 	db   "@"
 
 DefaultNamesRival: ; 6abe (1:6abe)
-	db   "NEW NAME"
-	next "RED"
-	next "ASH"
-	next "JACK"
+	db   "NIWENAMA"
+	next "READ"
+	next "ÆSC"
+	next "HENGIST"
 	db   "@"
 ENDC
 
 IF DEF(_YELLOW)
 DefaultNamesPlayer:
-	db   "NEW NAME"
-	next "YELLOW"
-	next "ASH"
-	next "JACK"
+	db   "NIWENAMA"
+	next "GEOLU"
+	next "ÆSC"
+	next "HENGIST"
 	db   "@"
 
 DefaultNamesRival:
-	db   "NEW NAME"
-	next "BLUE"
-	next "GARY"
-	next "JOHN"
+	db   "NIWENAMA"
+	next "BLAW"
+	next "SIGEGAR"
+	next "HORSA"
 	db   "@"
 ENDC
 
@@ -261,21 +261,21 @@ GetDefaultName: ; 6ad6 (1:6ad6)
 
 IF DEF(_RED)
 DefaultNamesPlayerList: ; 6af2 (1:6af2)
-	db "NEW NAME@RED@ASH@JACK@"
+	db "NIWENAMA@READ@ÆSC@HENGIST@"
 DefaultNamesRivalList: ; 6b08 (1:6b08)
-	db "NEW NAME@BLUE@GARY@JOHN@"
+	db "NIWENAMA@BLAW@SIGEGAR@HORSA@"
 ENDC
 IF DEF(_BLUE)
 DefaultNamesPlayerList: ; 6af2 (1:6af2)
-	db "NEW NAME@BLUE@GARY@JOHN@"
+	db "NIWENAMA@BLAW@SIGEGAR@HORSA@"
 DefaultNamesRivalList: ; 6b08 (1:6b08)
-	db "NEW NAME@RED@ASH@JACK@"
+	db "NIWE NAMA@READ@ÆSC@HENGIST@"
 ENDC
 IF DEF(_YELLOW)
 DefaultNamesPlayerList:
-	db "NEW NAME@YELLOW@ASH@JACK@"
+	db "NIWENAMA@GEOLU@ÆSC@HENGIST@"
 DefaultNamesRivalList:
-	db "NEW NAME@BLUE@GARY@JOHN@"
+	db "NIWENAMA@BLAW@SIGEGAR@HORSA@"
 ENDC
 
 TextTerminator_6b20: ; 6b20 (1:6b20)
