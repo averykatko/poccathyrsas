@@ -156,7 +156,7 @@ MonsterNames: ; 1c21e (7:421e)
 	db "PULMALIGNO"
 	db "MISSARIM@@"
 	db "GOLDWEN@@@"
-	db "SEACYNING@"
+	db "SÆCYNING@@"
 	db "MISSARIM@@"
 	db "MISSARIM@@"
 	db "MISSARIM@@"
