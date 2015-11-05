@@ -1,6 +1,6 @@
 _OakSpeechText1::
-	text "Hela þær!"
-	line "Wilcume to þære"
+	text "Hwæt!"
+	line "Wilcume to þa"
 	cont "POCCAÞYRSA worold"
 
 	para "Min nama is AC!"
@@ -16,11 +16,11 @@ _OakSpeechText2A::
 	cont "POCCAÞYRSAS!@@"
 
 _OakSpeechText2B::
-	text $51,"For sumum leodum,"
+	text $51,"For sume leoda,"
 	line "POCCAÞYRSAS earon"
 	cont "husdeor. Oðeran"
 	cont "Neotað þa to"
-	cont "feohtan."
+	cont "feohtanne."
 
 	para "Meself..."
 
@@ -41,7 +41,7 @@ _IntroduceRivalText::
 	cont "þin wiðerwinna"
 	cont "gebeon."
 
-	para "...Eh, hwæt is"
+	para "...Eh, hwa is"
 	line "his nama gegn?"
 	prompt
 
