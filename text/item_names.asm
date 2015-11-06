@@ -12,7 +12,7 @@ ItemNames: ; 472b (1:472b)
 	db "TIRIACA@"
 	db "BYRNE LÆCEWYRT@"
 	db "IS LÆCEWYRT@"
-	db "AWACNIAN@"
+	db "AWACNUNG@"
 	db "LAMA LÆCEWYRT@"
 	db "EDWYRPUNG@"
 	db "FULLDRENC@"
