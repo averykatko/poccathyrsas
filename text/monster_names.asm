@@ -53,7 +53,7 @@ MonsterNames: ; 1c21e (7:421e)
 	db "MISSARIM@@"
 	db "ÞUNDEOR@@@"
 	db "MAGNETON@@"
-	db "COHHIA@@@@"
+	db "HWOSTA@@@@"
 	db "MISSARIM@@"
 	db "CRANCAPA@@"
 	db "SEOLH@@@@@"
