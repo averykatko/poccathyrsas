@@ -21,7 +21,7 @@ ItemNames: ; 472b (1:472b)
 	db "DRENC@"
 	db "CARRBEAG@"
 	db "ÞEOTEBEAG@"
-	db "THUNORBEAG@"
+	db "ÞUNORBEAG@"
 	db "REGNBOGABEAG@"
 	db "FERHÐBEAG@"
 	db "MERSCBEAG@"
