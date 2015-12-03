@@ -1,7 +1,7 @@
 Poccaþyrsas
 
 Professor Oak	Mægester Ac
-Poké Ball	þyrsabeall, poccabeall
+Poké Ball	þyrsbeall
 Bicycle	Farhweol
 Pkmn Center	Poccaþyrs Heorð
 Poké Mart	Poccamarcet
@@ -9,77 +9,68 @@ trainer		rærenda, rærend?
 gym	Plegstow
 gym leader
 
-Brock	Brocc
-Misty	Mistig..
-Lt.Surge	Þunorþegen, Þorþegn
-Erika	Erica, Heað...
-Koga	Coga
-Sabrina	Ides.., Sæfern
-Blaine
-Giovanni	Þunoresac?
-
-0.	Missenderim, Missende Rim
-1.	Sædeor, Sæddeor
+0.	Missarim
+1.	Sæddeor
 2.	Buddeor
-3.	Blostmadeor, Blosdeor
+3.	Blosdeor
 4.	Fyraðexe
 5.	Blaðexe
 6.	Biernaðexe
 7.	Sellpadde
-8.	Tægelpadde, Heaðopadde
+8.	Heaðopadde
 9.	Blæstudo
 10.	Gryben
 11.	Wendpad
 12.	Buttorfreo
 13.	Beofel
-14.	Scellstrang, Beoscell
-15.	Beorere, Beora, Beogar, Beobor
-16.	Poppo, Dufuc, Dufoc, Dufeoc
-17.	Pipionem, Dufocto, Dufeocto
+14.	Beoscell
+15.	Beogar
+16.	Dufoc
+17.	Dufocto
 18.	Dufuma
 19.	Rættætæ
 20.	Rættætoð
 21.	Sperewa
 22.	Færwa
 23.	Acans
-24.	Mryw, Snepres
+24.	Snepres
 25.	Picacu
 26.	Rægcu
-27.	Sandscreawa, Sandmus
-28.	Sandþaks, Sandclawu
+27.	Sandmus
+28.	Sandþaks
 29.	Nidoran(F), Nidorænen
 30.	Nidorina
 31.	Nidocwen
 32.	Nidoran(M)
-33.	Nidorino, Nidorinus
+33.	Nidorino
 34.	Nidocyning
-35.	Pippi, Dreamylfen
-36.	Pixi, Dreamtalu
-37.	Foxiex, Siextæglas
-38.	Nigontæglas, Nigontala
-39.	Purin, Cubbigpuff, Putepuff
-40.	Pucurin, Cubbeþuf
-41.	Subat, Zubat
+35.	Dreamylfen
+36.	Dreamtalu
+37.	Foxiex
+38.	Nigontala
+39.	Putepuf
+40.	Cubbeþuf
+41.	Subat
 42.	Golbat
-43.	Fremdgræs, Fremdrædic, Fremdweod, Weoddi
-44.	Stencblostm, Glostm
+43.	Fremdrædic
+44.	Glostm
 45.	Blostmator
 46.	Paras
 47.	Parasect
-48.	Atorgnætt, Blodgnætt, Blodrinc
+48.	Atorgnætt
 49.	Atormoððe
-50.	Digda, Dican
-51.	Dugtrio, Dicþri
+50.	Dican
+51.	Dicþri
 52.	Miuð
-53.	Persian, Persisc, Persiscatt(e)
-54.	Ducild, Cilduce
+53.	Persiscatt
+54.	Cilduce
 55.	Golduce
-56.	Manci, Crancapa
+56.	Crancapa
 57.	Angrapa
 58.	Grilliðe
-59.	Arcanis, Brandocga
+59.	Brandocga
 60.	Polwagge
-61.	Pol(h)weorfe
+61.	Polweorfe
 62.	Polwraðe
 63.	Abra
 64.	Cadabra
@@ -88,26 +79,26 @@ Giovanni	Þunoresac?
 67.	Rinceoce
 68.	Rincempa
 69.	Bellesprut
-70.	Wependebelle, Wepabelle
+70.	Wepabelle
 71.	Sigebelle
-72.	Pulmalgidus
-73.	Pulmomalignus, Pulmalignus
+72.	Pulmalgido
+73.	Pulmaligno
 74.	Papelstan
 75.	Lapistan
 76.	Petrocc
 77.	Ponita
-78.	Swifthleap, Hleapswift
-79.	Slawoc, Slawuc
+78.	Swifthleap
+79.	Slawoc
 80.	Slawbro
 81.	Magnesoc
 82.	Magneton
-83.	Leacduce, Fugleac
+83.	Fugleac
 84.	Doduo
 85.	Dodrio
 86.	Seolh
 87.	Sæcu
 88.	Slima
-89.	Slimyc, Slimuc
+89.	Slimuc
 90.	Scelltruma
 91.	Claustre
 92.	Gæstlig
@@ -133,21 +124,21 @@ Giovanni	Þunoresac?
 112.	Unidon
 113.	Hæppig
 114.	Tangela
-115.	Modorfet, Greatefet, Scelfet
-116.	Horsæ, Mere
+115.	Scelfet
+116.	Horsæ
 117.	Sædra
 118.	Goldwen
-119.	Goldyning, Sæcyning
+119.	Sæcyning
 120.	Steorraþe
 121.	Steorrame
 122.	Mægester Mima
 123.	Siðere
-124.	Rubella, Iynx
-125.	Elebo, Þundeor
+124.	Rubella
+125.	Þundeor
 126.	Magmar
 127.	Scierabudda
 128.	Taurus
-129.	Galdorcarpa, Æðelcarpa
+129.	Æðelcarpa
 130.	Giarados
 131.	Lapras
 132.	Idem, Metamon
