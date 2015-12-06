@@ -10,6 +10,7 @@ gym	Plegstow
 gym leader
 
 0.	Missarim
+
 1.	Sæddeor
 2.	Buddeor
 3.	Blosdeor
@@ -141,24 +142,34 @@ gym leader
 129.	Æðelcarpa
 130.	Giarados
 131.	Lapras
-132.	Idem, Metamon
-133.	Eohur, Mannur
+132.	Idem
+133.	Eohur
 134.	Wæterieldu
-135.	Þunorieldu, Þorieldu
+135.	Þorieldu
 136.	Gledieldu
-137.	Porigon, Porygon
-138.	Ammonita, Omnit
-139.	Ammonisteorra, Omstar
+137.	Porygon
+138.	Ammonita
+139.	Ammeorra
 140.	Cabuto
 141.	Cabutops
-142.	Ptera, Ærodactyl
-143.	Snarcrest, Hnapprest
-144.	Congelo, Conglacio, Tyleinn
-145.	Tono, Tonus, Tonitrus, Stormtweir, Iuppitweir
-146.	Ignis, Incendo, Inflammo, Meltaþrir
+142.	Ptera
+143.	Snarcrest
+144.	Tyleinn
+145.	Iuppitweir
+146.	Meltaþrir
 147.	Dracaling
 148.	Dracalyft
 149.	Dracaniht
-150.	Miutu, Miutwa
+150.	Miutwa
 151.	Miu
-152.	Togepi
+
+152.	Cicorita
+153.
+154.
+155.	Fyrigil
+156.	Iglehraun?
+157.
+158.	Crococild
+159.	
+160.
+
