@@ -1,56 +1,59 @@
 _OakAppearsText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@@"
+	text "AC: Ea! Bid!"
+	line "Ne fer!@@"
 
 _OakWalksUpText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
+	text "AC: Nis hal!"
+	line "Wilden POCCA-"
+	cont "ÞYRSAS eardiað in"
+	cont "heah græs!"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "Þu þearf þin agen"
+	line "POCCAÞYRS habban"
+	cont "to þe scieldanne."
+	cont "Ic cnæw!"
 
-	para "Here, come with"
+	para "Hwæt, cum wið"
 	line "me!"
 	done
 
 _PalletTownText2::
-	text "I'm raising"
-	line "#MON too!"
+	text "Ic rære"
+	line "POCCAÞYRSAS to!"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "Þonne hie weorðað"
+	line "strange, þonne"
+	cont "hie cunnon me"
+	cont "scieldan."
 	done
 
 _PalletTownText3::
-	text "Technology is"
-	line "incredible!"
+	text "Searucræft is"
+	line "amasiung!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "Þu canst nu hydan"
+	line "ond begietan þing"
+	cont "ond POCCAÞYRSAS"
+	cont "swelce giefum mid"
+	cont "CW!"
 	done
 
 _PalletTownText4::
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "AC POCCAÞYRSA"
+	line "WITANCRÆFTSTEDE"
 	done
 
 _PalletTownText5::
-	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+	text "HIWCEASTER"
+	line "Þin siðfætes"
+	cont "sceaduwe abidað!"
 	done
 
 _PalletTownText6::
-	text $52,"'s house "
+	text $52,"es hus "
 	done
 
 _PalletTownText7::
-	text $53,"'s house "
+	text $53,"es hus "
 	done
 
