@@ -355,22 +355,22 @@ DrawPokedexVerticalLine: ; 4028e (10:428e)
 	ret
 
 PokedexSeenText: ; 4029d (10:429d)
-	db "SEEN@"
+	db "SEWEN@"
 
 PokedexOwnText: ; 402a2 (10:42a2)
-	db "OWN@"
+	db "AGNOD@"
 
 PokedexContentsText: ; 402a6 (10:42a6)
-	db "CONTENTS@"
+	db "HEALDEN@"
 
 PokedexMenuItemsText: ; 402af (10:42af)
-	db   "DATA"
-	next "CRY"
-	next "AREA"
+	db   "GIEFE"
+	next "GRÆD"
+	next "EARD"
 IF DEF(_YELLOW)
 	next "PRNT"
 ENDC
-	next "QUIT@"
+	next "GEENDIAN@"
 
 ; tests if a pokemon's bit is set in the seen or owned pokemon bit fields
 ; INPUT:
