@@ -1,54 +1,52 @@
 _MomWakeUpText::
-	text "MOM: Right."
-	line "All boys leave"
-IF DEF(_YELLOW)
-	cont "home someday."
-ELSE
-	cont "home some day."
-ENDC
-	cont "It said so on TV."
+	text "MODOR: Riht."
+	line "Eall cnafan læfað"
+	cont "ham sum dæg."
+	cont "Hie sægdon swa on"
+	cont "feorrsiene."
 
-	para "PROF.OAK, next"
-	line "door, is looking"
-	cont "for you."
+	para "MÆGESTER AC, ure"
+	line "neahgebur, seceð"
+	cont "þe."
 	done
 
 _MomHealText1::
 IF DEF(_YELLOW)
-	text "MOM: ",$52,", if"
-	line "your drive your"
-	cont "#MON too hard,"
-	cont "they'll dislike"
-	cont "you."
+	text "MODOR: ",$52,", gif"
+	line "þu drifest þin"
+	cont "POCCAÞYRSAS swiðe"
+	cont "þa hie sculon þe"
+	cont "hatian."
 
-	para "You should take a"
-	line "rest."
+	para "Þu scealt restan."
+	;line "rest."
 	prompt
 ELSE
-	text "MOM: ",$52,"!"
-	line "You should take a"
-	cont "quick rest."
+	text "MODOR: ",$52,"!"
+	line "Þu scealt hraðe"
+	cont "restan."
 	prompt
 ENDC
 
 _MomHealText2::
-	text "MOM: Oh good!"
-	line "You and your"
-	cont "#MON are"
-	cont "looking great!"
-	cont "Take care now!"
+	text "MODOR: O god!"
+	line "Þu ond þin"
+	cont "POCCAÞYRSAS"
+	cont "þyncað micelum!"
+	cont "Wes þu hal!"
 	done
 
 _StandByMeText::
-	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
+	text "On feorrsiene is"
+	line "an cwicbiliðe."
+	cont "Feower cnafan gað"
+	cont "on isenweges"
+	cont "lastum."
 
-	para "I better go too."
+	para "Ic sceal gan to."
 	done
 
 _TVWrongSideText::
-	text "Oops, wrong side."
+	text "Ups, woh hand."
 	done
 
