@@ -500,13 +500,13 @@ PrintNamingText: ; 68f8 (1:68f8)
 	jp PlaceString
 
 YourTextString: ; 693f (1:693f)
-	db "YOUR @"
+	db "ÞIN @"
 
 RivalsTextString: ; 6945 (1:6945)
-	db "RIVAL's @"
+	db "WIÐERWINNAs @"
 
 NameTextString: ; 694d (1:694d)
-	db "NAME?@"
+	db "NAMA?@"
 
 NicknameTextString: ; 6953 (1:6953)
-	db "NICKNAME?@"
+	db "EACNAMA?@"
