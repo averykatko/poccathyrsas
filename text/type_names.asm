@@ -30,7 +30,7 @@ TypeNames:
 	dw .Ice
 	dw .Dragon
 
-.Normal:   db "NORMAL@"
+.Normal:   db "GEWUNELIC@"
 .Fighting: db "FEOHTENDE@"
 .Flying:   db "FLEOGENDE@"
 .Poison:   db "ATOR@"
