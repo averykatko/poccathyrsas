@@ -7,7 +7,13 @@ Pkmn Center	Poccaþyrs Heorð
 Poké Mart	Poccamarcet
 trainer		rærenda, rærend?
 gym	Plegstow
-gym leader
+gym leader	Plegtoga?
+
+EXP Points
+HP 	(HM?)
+PP 	Mihtmæþe (MM)
+HM	Diegolsearu (DC)
+TM	
 
 0.	Missarim
 
@@ -173,3 +179,12 @@ gym leader
 159.	
 160.
 
+194.	Fenning
+195.	Fenncyning ?
+
+220.	Fearhwina
+221.	Hocgrunta
+
+650.	Cistigil
+651.	Þornhama
+652.	Cistbrord

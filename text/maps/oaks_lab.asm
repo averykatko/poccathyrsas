@@ -1,124 +1,125 @@
 _OaksLabGaryText1:: ; 94d5b (25:4d5b)
-	text $53,": Yo"
-	line $52,"! Gramps"
-	cont "isn't around!"
+	text $53,": Gea"
+	line $52,"! Ealdfæder"
+	cont "nis her!"
 
 IF DEF(_YELLOW)
-	para "I ran here 'cos"
-	line "he said he had a"
-	cont "#MON for me."
+	para "Ic rann her for"
+	line "þanne he sægde þe he"
+	cont "POCCAÞYRS for me hæfde."
 ENDC
 	done
 
 _OaksLabText40:: ; 94d79 (25:4d79)
 IF DEF(_YELLOW)
-	text $53,": Humph!"
-	line "I'll get a better"
-	cont "#MON than you!"
+	text $53,": Hum!"
+	line "Ic giete an betera"
+	cont "POCCAÞYRS þanne"
+	cont "þe!"
 	done
 ELSE
-	text $53,": Heh, I"
-	line "don't need to be"
-	cont "greedy like you!"
+	text $53,": Ha, ic"
+	line "ne þearf to beon"
+	cont "swa gifre swa þu!"
 
-	para "Go ahead and"
-	line "choose, ", $52, "!"
+	para "Ga þær ond"
+	line "ceos, ", $52, "!"
 	done
 ENDC
 
 _OaksLabText41:: ; 94dbd (25:4dbd)
 IF DEF(_YELLOW)
-	text $53,": Heh, my"
+	text $53,": Ha, min"
 ELSE
-	text $53,": My"
+	text $53,": Min"
 ENDC
-	line "#MON looks a"
-	cont "lot stronger."
+	line "POCCAÞYRS þynceð"
+	cont "eallstrangra."
 	done
 
 _OaksLabText39:: ; 94ddf (25:4ddf)
 IF DEF(_YELLOW)
-	text "That's a #"
-	line "BALL. There's a"
-	cont "#MON inside!"
+	text "Se is ÞYRS-"
+	line "BEALLAS. An POCCA"
+	cont "ÞYRS is binnan hit!"
 	done
 ELSE
-	text "Those are #"
-	line "BALLs. They"
-	cont "contain #MON!"
+	text "Þas earon ÞYRS-"
+	line "BEALLAS. Þas"
+	cont "belucað POCCAÞYRSAS!"
 	done
 ENDC
 
 IF DEF(_YELLOW)
 _OaksLabPikachuText::
-	text "OAK: Go ahead,"
-	line "it's yours!"
+	text "AC: Tac,"
+	line "Hit is þin!"
 	done
 ENDC
 
 _OaksLabCharmanderText:: ; 94e06 (25:4e06)
-	text "So! You want the"
-	line "fire #MON,"
-	cont "CHARMANDER?"
+	text "Swa! Þu wilt þone"
+	line "fyr POCCAÞYRS,"
+	cont "FYRAÐEXE?"
 	done
 
 _OaksLabSquirtleText:: ; 94e2f (25:4e2f)
-	text "So! You want the"
-	line "water #MON,"
-	cont "SQUIRTLE?"
+	text "Swa! Þu wilt þone"
+	line "wæter POCCAÞYRS,"
+	cont "SELLPADDE?"
 	done
 
 _OaksLabBulbasaurText:: ; 94e57 (25:4e57)
-	text "So! You want the"
-	line "plant #MON,"
-	cont "BULBASAUR?"
+	text "Swa! Þu wilt þone"
+	line "wyrt POCCAÞYRS,"
+	cont "SÆDDEOR?"
 	done
 
 _OaksLabMonEnergeticText:: ; 94e80 (25:4e80)
-	text "This #MON is"
-	line "really energetic!"
+	text "Þes POCCAÞYRS is"
+	line "full swiþ!"
 	prompt
 
 _OaksLabReceivedMonText:: ; 94ea0 (25:4ea0)
-	text $52, " received"
-	line "a @"
+	text $52, " underfeng"
+	line "an @"
 	TX_RAM wcd6d
 	text "!@@"
 
 _OaksLabLastMonText:: ; 94eb6 (25:4eb6)
-	text "That's PROF.OAK's"
-	line "last #MON!"
+	text "Se is MÆGESTER ACes"
+	line "latost POCCAÞYRS!"
 	done
 
 _OaksLabText_1d2f0:: ; 94ed2 (25:4ed2)
-	text "OAK: Now, ", $52, ","
-	line "which #MON do"
-	cont "you want?"
+	text "AC: Nu, ", $52, ","
+	line "hwilc POCCAÞYRS"
+	cont "wilt þu?"
 	done
 
 _OaksLabText_1d2f5:: ; 94ef8 (25:4ef8)
-	text "OAK: If a wild"
-	line "#MON appears,"
-	cont "your #MON can"
-	cont "fight against it!"
+	text "AC: Gif an wilde"
+	line "POCCAÞYRS ætieweð,"
+	cont "þin POCCAÞYRS can"
+	cont "ongeagn hit feohtan!"
 
 IF DEF(_YELLOW)
-	para "Afterward, go on"
-	line "to the next town."
+	para "Siððan, ga to"
+	line "þære niehst byrig."
 ENDC
 	done
 
 _OaksLabText_1d2fa:: ; 94f36 (25:4f36)
 IF DEF(_YELLOW)
-	text "OAK: You should"
-	line "talk to it and"
-	cont "see how it feels."
+	text "AC: Þu scealt"
+	line "him tealcian ond"
+	cont "his hal seon."
 	done
 ELSE
-	text "OAK: ", $52, ","
-	line "raise your young"
-	cont "#MON by making"
-	cont "it fight!"
+	text "AC: ", $52, ","
+	line "rær þin geongan"
+	cont "POCCAÞYRS - wyrc"
+	cont "hit to feohtan!"
 	done
 ENDC
 
@@ -245,72 +246,77 @@ _OaksLabRivalWaitingText:: ; 952bb (25:52bb)
 
 _OaksLabChooseMonText:: ; 952df (25:52df)
 IF DEF(_YELLOW)
-	text "OAK: Hmm? ",$53,"?"
-	line "Why are you here"
-	cont "already?"
+	text "AC: Hum? ",$53,"?"
+	line "Hwy ist þu her"
+	cont "ær?"
 
-	para "I said for you to"
-	line "come by later..."
+	para "Þa ic sægde, þa"
+	line "þu cymst lator..."
 
-	para "Ah, whatever!"
-	line "Just wait there."
+	para "Ah, æghwæt!"
+	line "Bid þær."
 
-	para "Look, ",$52,"! Do"
-	line "you see that ball"
-	cont "on the table?"
+	para "Loca, ",$52,"!"
+	line "Siehst þu þone"
+	cont "beall on þæm"
+	cont "borde?"
 
-	para "It's called a #"
-	line "BALL. It holds a"
-	cont "#MON inside."
+	para "He is an ÞYRS-"
+	line "BEALL geceallod."
+	cont "He belycð an"
+	cont "POCCAÞYRS."
 
-	para "You may have it!"
-	line "Go on, take it!"
+	para "Þu meaht hine"
+	line "habban! Ga,"
+	cont "tac hine!"
 	done
 ELSE
-	text "OAK: ", $53, "?"
-	line "Let me think..."
+	text "AC: ", $53, "?"
+	line "Læt me þencan..."
 
-	para "Oh, that's right,"
-	line "I told you to"
-	cont "come! Just wait!"
+	para "O, riht,"
+	line "Ic geteald þe to"
+	cont "cumanne! Bid!"
 
-	para "Here, ", $52, "!"
+	para "Her, ", $52, "!"
 
-	para "There are 3"
-	line "#MON here!"
+	para "Þri POCCAÞYRSAS"
+	line "earon her!"
 
 	para "Haha!"
 
-	para "They are inside"
-	line "the # BALLs."
+	para "Hie earon innan"
+	line "þa beallas."
 
-	para "When I was young,"
-	line "I was a serious"
-	cont "#MON trainer!"
+	para "Þa ic wæs geong,"
+	line "þa ic wæs an"
+	cont "eornoste POCCA-"
+	cont "ÞYRS rærenda!"
 
-	para "In my old age, I"
-	line "have only 3 left,"
-	cont "but you can have"
-	cont "one! Choose!"
+	para "In min æfteryldo,"
+	line "nan butan þri"
+	cont "belifað. Ac þu"
+	cont "cynst an habban!"
+	cont "Ceos!"
 	done
 ENDC
 
 _OaksLabRivalInterjectionText:: ; 953dc (25:53dc)
-	text $53, ": Hey!"
-	line "Gramps! What"
-	cont "about me?"
+	text $53, ": Ea!"
+	line "Ealdfæder! Hwæt"
+	cont "for me?"
 	done
 
 _OaksLabBePatientText:: ; 953fc (25:53fc)
 IF DEF(_YELLOW)
-	text "OAK: Be patient,"
+	text "AC: Be patient,"
 	line $53,", I'll give"
 	cont "you one later."
 	done
 ELSE
-	text "OAK: Be patient!"
-	line $53, ", you can"
-	cont "have one too!"
+	text "AC: Þola!"
+	line $53, ", þu cynst"
+	cont "to an habban!"
 	done
 ENDC
 
@@ -331,26 +337,26 @@ _OaksLabRivalTakesText3::
 	prompt
 
 _OaksLabRivalTakesText4::
-	text $53,": Gramps, I"
-	line "want this one!"
+	text $53,": Ealdfæder,"
+	line "ic wille þisne!"
 	prompt
 
 _OaksLabRivalTakesText5::
-	text "OAK: But, I... Oh,"
-	line "all right then."
-	cont "That #MON is"
-	cont "yours."
+	text "AC: Ac, ic... O,"
+	line "Eallrihte."
+	cont "Se POCCAÞYRS is"
+	cont "þin."
 
-	para "I was going to"
-	line "give you one"
-	cont "anyway..."
+	para "Ic wolde þec an"
+	line "to giefan"
+	cont "ahwergen..."
 
-	para $52,", come over"
-	line "here."
+	para $52,", cum"
+	line "hider."
 	done
 
 _OaksLabOakGivesText::
-	text "OAK: ",$52,", this"
+	text "AC: ",$52,", þis"
 	line "is the #MON I"
 	cont "caught earlier."
 
@@ -368,56 +374,60 @@ _OaksLabReceivedText::
 ENDC
 
 _OaksLabLeavingText:: ; 95427 (25:5427)
-	text "OAK: Hey! Don't go"
-	line "away yet!"
+	text "AC: Ea! Ne"
+	line "fer giet!"
 	done
 
 _OaksLabRivalPickingMonText:: ; 95444 (25:5444)
-	text $53, ": I'll take"
-	line "this one, then!"
+	text $53, ": Swa ic"
+	line "sceall þisne"
+	cont "tacan!"
 	done
 
 _OaksLabRivalReceivedMonText:: ; 95461 (25:5461)
-	text $53, " received"
-	line "a @"
+	text $53, " underfeng"
+	line "an @"
 	TX_RAM wcd6d
 	text "!@@"
 
 _OaksLabRivalChallengeText:: ; 95477 (25:5477)
-	text $53, ": Wait"
+	text $53, ": Bid"
 	line $52, "!"
-	cont "Let's check out"
-	cont "our #MON!"
+	cont "Læt us uncer"
+	cont "POCCAÞYRSAS"
+	cont "sceawian!"
 
-	para "Come on, I'll take"
-	line "you on!"
+	para "Cym, ic wille"
+	line "þe afeohtan!"
 	done
 
 _OaksLabText_1d3be:: ; 954b6 (25:54b6)
-	text "WHAT?"
-	line "Unbelievable!"
-	cont "I picked the"
-	cont "wrong #MON!"
+	text "HWÆT?"
+	line "Ungeleafullic!"
+	cont "Ic ceas þone"
+	cont "woh POCCAÞYRS!"
 	prompt
 
 _OaksLabText_1d3c3:: ; 954e4 (25:54e4)
-	text $53, ": Yeah! Am"
-	line "I great or what?"
+	text $53, ": Gea! Eom"
+	line "ic æmirce oðer"
+	cont "hwæt?"
 	prompt
 
 _OaksLabRivalToughenUpText:: ; 95502 (25:5502)
-	text $53, ": Okay!"
-	line "I'll make my"
-	cont "#MON fight to"
-	cont "toughen it up!"
+	text $53, ": Riht!"
+	line "Ic sceall wyrcan"
+	cont "min POCCAÞYRS to"
+	cont "feohtanne for to"
+	cont "hine tohnianne!"
 
-	para $52, "! Gramps!"
-	line "Smell you later!"
+	para $52, "! Ealdfæder!"
+	line "Sien ge fule!"
 	done
 
 IF DEF(_YELLOW)
 _OaksLabPikachuDislikesPokeballsText1::
-	text "OAK: What?"
+	text "AC: Hwæt?"
 	done
 
 _OaksLabPikachuDislikesPokeballsText2::
@@ -442,7 +452,7 @@ _OaksLabPikachuDislikesPokeballsText2::
 ENDC
 
 _OaksLabText21:: ; 95551 (25:5551)
-	text $53, ": Gramps!"
+	text $53, ": Ealdfæder!"
 	done
 
 _OaksLabText22:: ; 9555d (25:555d)
@@ -453,8 +463,8 @@ IF DEF(_YELLOW)
 	cont "Check it out!"
 	done
 ELSE
-	text $53, ": What did"
-	line "you call me for?"
+	text $53, ": Hwy dydest"
+	line "þu me ceallian?"
 	done
 ENDC
 
@@ -468,46 +478,48 @@ IF DEF(_YELLOW)
 	cont "something for me."
 	done
 ELSE
-	text "OAK: Oh right! I"
-	line "have a request"
-	cont "of you two."
+	text "AC: O riht! Ic"
+	line "hæbbe an bedu"
+	cont "of incer."
 	done
 ENDC
 
 _OaksLabText24:: ; 955a8 (25:55a8)
-	text "On the desk there"
-	line "is my invention,"
-	cont "#DEX!"
+	text "On seo bocscamele"
+	line "is min begiming,"
+	cont "POCCAUDEX!"
 
-	para "It automatically"
-	line "records data on"
-	cont "#MON you've"
-	cont "seen or caught!"
+	para "He ymbwrit self-"
+	line "wyrcende giefe"
+	cont "ymb POCCAÞYRSas"
+	cont "þe þu sawe oððe" 
+	cont "fenge!"
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "He is an ofer-"
+	line "searucæftlic"
+	cont "encyclopædia!"
 	done
 
 _OaksLabText25:: ; 9562a (25:562a)
-	text "OAK: ", $52, " and"
-	line $53, "! Take"
-	cont "these with you!"
+	text "AC: ", $52, " ond"
+	line $53, "! Tacað"
+	cont "þas mid eow!"
 
-	para $52, " got"
-	line "#DEX from OAK!@@"
+	para $52, " geat"
+	line "POCCAUDEX fram AC!@@"
 
 _OaksLabText26:: ; 95664 (25:5664)
-	text "To make a complete"
-	line "guide on all the"
-	cont "#MON in the"
-	cont "world..."
+	text "Macian an fulle"
+	line "boc ymbutan eall þa"
+	cont "POCCAÞYRSas in seo"
+	cont "worold..."
 
 	para "That was my dream!"
 
-	para "But, I'm too old!"
-	line "I can't do it!"
+	para "Ac, Ic eom to eald!"
+	line "Ic ne mot swa don!"
 
-	para "So, I want you two"
+	para "Swa, Ic want you two"
 	line "to fulfill my"
 	cont "dream for me!"
 
@@ -520,8 +532,8 @@ _OaksLabText26:: ; 95664 (25:5664)
 	done
 
 _OaksLabText27:: ; 95741 (25:5741)
-	text $53, ": Alright"
-	line "Gramps! Leave it"
+	text $53, ": Eallrihte,"
+	line "Ealdfæder! Leave it"
 	cont "all to me!"
 
 	para $52, ", I hate to"

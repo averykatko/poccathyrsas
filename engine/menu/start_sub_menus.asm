@@ -615,13 +615,13 @@ TrainerInfo_FarCopyData: ; 1357f (4:757f)
 	jp FarCopyData2
 
 TrainerInfo_NameMoneyTimeText: ; 13584 (4:7584)
-	db   "NAME/"
+	db   "NAMA/"
 	next "MONEY/"
-	next "TIME/@"
+	next "TIMA/@"
 
 ; $76 is a circle tile
 TrainerInfo_BadgesText: ; 13597 (4:7597)
-	db $76,"BADGES",$76,"@"
+	db $76,"BEAGAS",$76,"@"
 
 ; draws a text box on the trainer info screen
 ; height is always 6

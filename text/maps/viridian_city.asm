@@ -1,7 +1,8 @@
 _ViridianCityText1:: ; a43cc (29:43cc)
-	text "Those # BALLs"
-	line "at your waist!"
-	cont "You have #MON!"
+	text "Þa ÞYRSBEALLas"
+	line "æt þin middel!"
+	cont "Þu hæfst POCCA-"
+	cont "ÞYRSas!"
 
 	para "It's great that"
 	line "you can carry and"
@@ -10,43 +11,45 @@ _ViridianCityText1:: ; a43cc (29:43cc)
 	done
 
 _ViridianCityText_19122:: ; a4437 (29:4437)
-	text "This #MON GYM"
-	line "is always closed."
+	text "Þes POCCAÞYRS"
+	line "PLEGSTOW is"
+	line "ealneg geclysed."
 
-	para "I wonder who the"
-	line "LEADER is?"
+	para "Ic me frigne, hwa"
+	line "is PLEGTOGA?"
 	done
 
 _ViridianCityText_19127:: ; a4474 (29:4474)
-	text "VIRIDIAN GYM's"
-	line "LEADER returned!"
+	text "SINGRENE PLEGSTOWes"
+	line "PLEGTOGA eftcwom!"
 	done
 
 _ViridianCityText_1914d:: ; a4494 (29:4494)
-	text "You want to know"
-	line "about the 2 kinds"
+	text "Þu wille to know"
+	line "fram the 2 kinds"
 	cont "of caterpillar"
-	cont "#MON?"
+	cont "#MON cunnan?"
 	done
 
 _ViridianCityText_19152:: ; a44cd (29:44cd)
-	text "Oh, OK then!"
+	text "O, eallrihte!"
 	done
 
 _ViridianCityText_19157:: ; a44db (29:44db)
-	text "CATERPIE has no"
-	line "poison, but"
-	cont "WEEDLE does."
+	text "GRYBEN ne hæfð"
+	line "ator, ac"
+	cont "BEOFEL deð."
 
-	para "Watch out for its"
-	line "POISON STING!"
+	para "Bewara his"
+	line "ATORSTING!"
 	done
 
 _ViridianCityText_19175:: ; a4525 (29:4525)
-	text "Oh Grandpa! Don't"
-	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+	text "O Ealdfæder! Ne"
+	line "wes swa mæne!"
+	cont "He ne hæfð giet"
+	cont "his caffig ge-"
+	cont "druncen."
 	done
 
 _ViridianCityText_1917a:: ; a4560 (29:4560)
@@ -66,15 +69,16 @@ _ViridianCityText_19191:: ; a45b5 (29:45b5)
 	done
 
 _ViridianCityText_191ca:: ; a45ea (29:45ea)
-	text "Yawn!"
-	line "I must have dozed"
-	cont "off in the sun."
+	text "Gan!"
+	line "Ic mot habban in"
+	cont "þære sunnan ge-"
+	cont "hnappod."
 
-	para "I had this dream"
-	line "about a DROWZEE"
-	cont "eating my dream."
-	cont "What's this?"
-	cont "Where did this TM"
+	para "Ic mætte"
+	line "ymbutan an SOPOR"
+	cont "etende min swefn."
+	cont "Hwæt is þis?"
+	cont "Hwanones cwom TM"
 	cont "come from?"
 
 	para "This is spooky!"
@@ -93,8 +97,8 @@ _TM42Explanation:: ; a46ad (29:46ad)
 	done
 
 _TM42NoRoomText:: ; a46d7 (29:46d7)
-	text "You have too much"
-	line "stuff already."
+	text "Þu hæfst ær to"
+	line "micel."
 	done
 
 _ViridianCityText_1920a:: ; a46f9 (29:46f9)
@@ -132,13 +136,14 @@ _ViridianCityText_19214:: ; a47e6 (29:47e6)
 	done
 
 _ViridianCityText_19219:: ; a4807 (29:4807)
-	text "First, you need"
-	line "to weaken the"
-	cont "target #MON."
+	text "Fyrst, þu most"
+	line "se gefunden"
+	cont "POCCAÞYRS to"
+	cont "gewæccanne."
 	done
 
 _ViridianCityText8:: ; a4833 (29:4833)
-	text "VIRIDIAN CITY "
+	text "SINGRENEBURG "
 	line "The Eternally"
 	cont "Green Paradise"
 	done
@@ -170,12 +175,13 @@ _ViridianCityText10:: ; a48c3 (29:48c3)
 	done
 
 _ViridianCityText13:: ; a4949 (29:4949)
-	text "VIRIDIAN CITY"
-	line "#MON GYM"
+	text "SINGRENEBURG"
+	line "POCCAÞYRS"
+	line "PLEGSTOW"
 	done
 
 _ViridianCityText14:: ; a4961 (29:4961)
-	text "The GYM's doors"
-	line "are locked..."
+	text "Seo PLEGSTOWes"
+	line "dura earon locen..."
 	done
 

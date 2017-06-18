@@ -329,11 +329,11 @@ SpecialEnterMap: ; 5d5f (1:5d5f)
 	jp EnterMap
 
 ContinueText: ; 5d7e (1:5d7e)
-	db "CONTINUE", $4e
+	db "ÆTFEOLAN", $4e
 
 NewGameText: ; 5d87 (1:5d87)
-	db "NEW GAME", $4e
-	db "OPTION@"
+	db "NIWE GAMEN", $4e
+	db "CYRE@"
 
 CableClubOptionsText: ; 5d97 (1:5d97)
 	db "TRADE CENTER", $4e
@@ -421,10 +421,10 @@ PrintPlayTime: ; 5e55 (1:5e55)
 	jp PrintNumber
 
 SaveScreenInfoText: ; 5e6a (1:5e6a)
-	db   "PLAYER"
-	next "BADGES    "
-	next "#DEX    "
-	next "TIME@"
+	db   "PLEGERE"
+	next "BEAGAS    "
+	next "POCCAUDEX  "
+	next "TIMA@"
 
 DisplayOptionMenu: ; 5e8a (1:5e8a)
 	coord hl, 0, 0

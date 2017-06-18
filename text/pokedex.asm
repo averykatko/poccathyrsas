@@ -79,9 +79,9 @@ _SlowbroDexEntry::
 	dex
 
 _IvysaurDexEntry::
-	text "When the bulb on"
-	next "its back grows"
-	next "large, it appears"
+	text "Þa seo clufe samod"
+	next "his bæce grewð, þa"
+	next "hit appears"
 
 	page "to lose the"
 	next "ability to stand"
@@ -269,11 +269,11 @@ _StaryuDexEntry::
 	dex
 
 _BlastoiseDexEntry::
-	text "A brutal #MON"
+	text "An reoc POCCAÞYRS"
 	next "with pressurized"
-	next "water jets on its"
+	next "wæter jets on his"
 
-	page "shell. They are"
+	page "scealu. They are"
 	next "used for high"
 	next "speed tackles"
 	dex
@@ -1250,7 +1250,7 @@ _StarmieDexEntry::
 
 _BulbasaurDexEntry::
 	text "An fremde sæd wæs"
-	next " on his bæce æfter"
+	next "on his bæce æfter"
 	next "beorð geplantod."
 
 	page "Seo plante sprutað"
@@ -1259,13 +1259,13 @@ _BulbasaurDexEntry::
 	dex
 
 _VenusaurDexEntry::
-	text "The plant blooms"
-	next "when it is"
-	next "absorbing solar"
+	text "Þa blewst seo"
+	next "plante, þa heo"
+	next "sunnlic strengð"
 
-	page "energy. It stays"
-	next "on the move to"
-	next "seek sunlight"
+	page "bedrinceð. Hit"
+	next "seceð sunnleoht"
+	next "simbel-farende"
 	dex
 
 _TentacruelDexEntry::
@@ -1418,33 +1418,33 @@ _SquirtleDexEntry::
 	dex
 
 _CharmeleonDexEntry::
-	text "When it swings"
-	next "its burning tail,"
-	next "it elevates the"
+	text "Þonne hit swingeð"
+	next "his biernende"
+	next "tægel, þonne hit"
 
-	page "temperature to"
-	next "unbearably high"
-	next "levels"
+	page "an unacumendlic"
+	next "hæte hrædlice"
+	next "aswiðrað"
 	dex
 
 _WartortleDexEntry::
-	text "Often hides in"
-	next "water to stalk"
-	next "unwary prey. For"
+	text "Hit oft hydeð in"
+	next "wæter, ungewære"
+	next "hloðe huntian."
 
-	page "swimming fast, it"
-	next "moves its ears to"
-	next "maintain balance"
+	page "Swa þæt hit hræd-""
+	next "lice swimmeð, hit"
+	next "abregdeð his earan"
 	dex
 
 _CharizardDexEntry::
-	text "Spits fire that"
-	next "is hot enough to"
-	next "melt boulders."
+	text "Spitteð fyr þæt"
+	next "hat genog is"
+	next "swa heallas miltð."
 
-	page "Known to cause"
-	next "forest fires"
-	next "unintentionally"
+	page "Hit holtfyras"
+	next "unmyndlinga"
+	next "oft onginneð"
 	dex
 
 _OddishDexEntry::

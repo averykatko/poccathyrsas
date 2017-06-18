@@ -1,6 +1,6 @@
 _Route1ViridianMartSampleText:: ; 8d5bf (23:55bf)
 	text "Eala! Ic wyrce at an"
-	line "POCCAMARKETe."
+	line "POCCAMARCETe."
 
 	para "Hit is an cyma"
 	line "scoppa, swa bidde"
@@ -30,8 +30,9 @@ _Route1Text_1caf3:: ; 8d67c (23:567c)
 	done
 
 _Route1Text2:: ; 8d69f (23:569f)
-	text "Siehst þu þa clifes"
-	line "andlang se weg?"
+	text "Siehst þu þa"
+	line "clifes andlang"
+	cont "se weg?"
 
 	para "Hit is an bita eg-"
 	line "sende, ac þu meaht"

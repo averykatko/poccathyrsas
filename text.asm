@@ -48,8 +48,8 @@ _NothingHereText:: ; 80061 (20:4061)
 	prompt
 
 _ItsABiteText:: ; 80082 (20:4082)
-	text "Oh!"
-	line "It's a bite!"
+	text "O!"
+	line "Hit is an bite!"
 	prompt
 
 _ExclamationText:: ; 80093 (20:4093)
@@ -73,8 +73,8 @@ _MartSignText:: ; 800d2 (20:40d2)
 	done
 
 _PokeCenterSignText:: ; 800fc (20:40fc)
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "Hæl þin POCCAÞYRSAS!"
+	line "POCCAÞYRS HEORÐ"
 	done
 
 _FoundItemText:: ; 80119 (20:4119)
@@ -129,7 +129,7 @@ _OaksAideUhOhText:: ; 801e4 (20:41e4)
 	done
 
 _OaksAideComeBackText:: ; 80250 (20:4250)
-	text "Oh. I see."
+	text "O. Ic seo."
 
 	para "When you get @"
 	TX_NUM hOaksAideRequirement, 1, 3
@@ -168,8 +168,8 @@ _OaksAideNoRoomText:: ; 802ec (20:42ec)
 
 IF DEF(_YELLOW)
 _NurseChanseyText::
-	text "CHANSEY: Chaaan"
-	line "sey!"
+	text "HÆPPIG: Hæææp"
+	line "pig!"
 	done
 ENDC
 
@@ -244,8 +244,8 @@ INCLUDE "text/maps/seafoam_islands_b4f.asm"
 
 _AIBattleWithdrawText:: ; 880be (22:40be)
 	TX_RAM W_TRAINERNAME
-	text " with-"
-	line "drew @"
+	text " æt-"
+	line "genam @"
 	TX_RAM wEnemyMonNick
 	text "!"
 	prompt
@@ -253,7 +253,7 @@ _AIBattleWithdrawText:: ; 880be (22:40be)
 _AIBattleUseItemText:: ; 880d5 (22:40d5)
 	TX_RAM W_TRAINERNAME
 	db $0
-	line "used @"
+	line "neat @"
 	TX_RAM wcd6d
 	db $0
 	cont "on @"
@@ -263,7 +263,7 @@ _AIBattleUseItemText:: ; 880d5 (22:40d5)
 
 _TradeWentToText:: ; 880ef (22:40ef)
 	TX_RAM wcf4b
-	text " went"
+	text " eode"
 	line "to @"
 	TX_RAM W_GRASSRATE
 	text "."
@@ -359,13 +359,13 @@ _NotThisTimeText:: ; 88226 (22:4226)
 	prompt
 
 _YeahText:: ; 88236 (22:4236)
-	text "Yeah!@@"
+	text "Gea!@@"
 
 _DexSeenOwnedText:: ; 8823e (22:423e)
-	text "#DEX   Seen:@"
+	text "#DEX   Segen:@"
 	TX_NUM wDexRatingNumMonsSeen, 1, 3
 	db $0
-	line "         Owned:@"
+	line "         Agnod:@"
 	TX_NUM wDexRatingNumMonsOwned, 1, 3
 	db "@"
 
@@ -376,37 +376,37 @@ _DexRatingText:: ; 88267 (22:4267)
 _GymStatueText1:: ; 88275 (22:4275)
 	TX_RAM wGymCityName
 	db $0
-	line "#MON GYM"
-	cont "LEADER: @"
+	line "POCCAÞYRS PLEGSTOW"
+	cont "LADTEOW: @"
 	TX_RAM wGymLeaderName
 	db $0
 
-	para "WINNING TRAINERS:"
+	para "WINNENDE RÆRENDAS:"
 	line $53
 	done
 
 _GymStatueText2:: ; 882a5 (22:42a5)
 	TX_RAM wGymCityName
 	db $0
-	line "#MON GYM"
-	cont "LEADER: @"
+	line "POCCAÞYRS PLEGSTOW"
+	cont "LADTEOW: @"
 	TX_RAM wGymLeaderName
 	db $0
 
-	para "WINNING TRAINERS:"
+	para "WINNENDE RÆRENDAS:"
 	line $53
 	cont $52
 	done
 
 _ViridianCityPokecenterGuyText:: ; 882d7 (22:42d7)
-	text "#MON CENTERs"
-	line "heal your tired,"
-	cont "hurt or fainted"
-	cont "#MON!"
+	text "POCCAÞYRS HEORÐas"
+	line "hælað þin meðe,"
+	cont "gedered oððe ge-"
+	cont "teorod POCCAÞYRS!"
 	done
 
 _PewterCityPokecenterGuyText:: ; 8830c (22:430c)
-	text "Yawn!"
+	text "Gan!"
 
 	para "When JIGGLYPUFF"
 	line "sings, #MON"
@@ -533,8 +533,9 @@ _NewBicycleText:: ; 886e6 (22:46e6)
 	done
 
 _PushStartText:: ; 886fc (22:46fc)
-	text "Push START to"
-	line "open the MENU!"
+	text "Ahrin ONGIN to"
+	line "openianne þa"
+	line "CYREHLÆDRE!"
 	done
 
 _SaveOptionText:: ; 8871a (22:471a)
@@ -661,8 +662,8 @@ _BillsHousePokemonListText2:: ; 88a40 (22:4a40)
 	done
 
 _OakLabEmailText:: ; 88a60 (22:4a60)
-	text "There's an e-mail"
-	line "message here!"
+	text "An hrædærendgewrit"
+	line "is her!"
 
 	para "..."
 
@@ -1062,7 +1063,7 @@ _ElevatorText:: ; 895fb (22:55fb)
 	done
 
 _TownMapText:: ; 89611 (22:5611)
-	text "A TOWN MAP.@@"
+	text "An CARTE.@@"
 
 _PokemonStuffText:: ; 8961f (22:561f)
 	text "Wow! Tons of"
@@ -1077,10 +1078,10 @@ _OutOfSafariBallsText:: ; 89639 (22:5639)
 	prompt
 
 _WildRanText:: ; 89666 (22:5666)
-	text "Wild @"
+	text "Wilde @"
 	TX_RAM wEnemyMonNick
 	db $0
-	line "ran!"
+	line "rann!"
 	prompt
 
 _EnemyRanText:: ; 89677 (22:5677)
@@ -1202,8 +1203,8 @@ _RunAwayText::
 ENDC
 
 _ItemsCantBeUsedHereText:: ; 89831 (22:5831)
-	text "Items can't be"
-	line "used here."
+	text "An ne cann toles"
+	line "neotan her."
 	prompt
 
 _AlreadyOutText:: ; 8984b (22:584b)
@@ -1262,8 +1263,8 @@ _IsFrozenText:: ; 89920 (22:5920)
 	prompt
 
 _FullyParalyzedText:: ; 89934 (22:5934)
-	text $5A,"'s"
-	line "fully paralyzed!"
+	text $5A," is"
+	line "full lama!"
 	prompt
 
 _FlinchedText:: ; 89949 (22:5949)
@@ -1318,7 +1319,7 @@ _AttackContinuesText:: ; 89a05 (22:5a05)
 
 _CantMoveText:: ; 89a1b (22:5a1b)
 	text $5A
-	line "can't move!"
+	line "ne cann scriðan!"
 	prompt
 
 _MoveIsDisabledText:: ; 89a29 (22:5a29)
@@ -1411,8 +1412,8 @@ _BeganToNapText:: ; 89afd (22:5afd)
 
 _WontObeyText:: ; 89b10 (22:5b10)
 	TX_RAM wBattleMonNick
-	text " won't"
-	line "obey!"
+	text " ne wille"
+	line "eaðmodgian!"
 	prompt
 
 _TurnedAwayText:: ; 89b20 (22:5b20)
@@ -1456,7 +1457,7 @@ _HitXTimesText:: ; 89baf (22:5baf)
 
 _GainedText:: ; 89bc2 (22:5bc2)
 	TX_RAM wcd6d
-	text " gained"
+	text " afeng"
 	line "@@"
 
 _WithExpAllText:: ; 89bd0 (22:5bd0)
